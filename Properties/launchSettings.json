@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ES_AnimalRecognition": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\zengh\\source\\repos\\ES_AnimalRecognition"
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "allFeatures": [
+    "有毛发",
+    "有奶",
+    "有羽毛",
+    "会飞",
+    "会生蛋",
+    "吃肉",
+    "有锋利牙齿",
+    "有爪",
+    "眼向前方",
+    "有蹄",
+    "反刍",
+    "有黄褐色皮毛",
+    "有暗斑点",
+    "有黑色条纹",
+    "有长脖子",
+    "有长腿",
+    "不会飞",
+    "会游泳",
+    "善飞",
+    "有黑白二色",
+    "是哺乳动物",
+    "是鸟",
+    "是食肉动物",
+    "是有蹄类动物"
+  ],
+  "finalConclusion": [
+    "是豹",
+    "是虎",
+    "是长颈鹿",
+    "是斑马",
+    "是鸵鸟",
+    "是信天翁",
+    "是企鹅"
+  ],
+  "rules": [
+    {
+      "features": [
+        0
+      ],
+      "conclusion": 20,
+      "isFinal": false
+    },
+    {
+      "features": [
+        1
+      ],
+      "conclusion": 20,
+      "isFinal": false
+    },
+    {
+      "features": [
+        2
+      ],
+      "conclusion": 21,
+      "isFinal": false
+    },
+    {
+      "features": [
+        3,
+        4
+      ],
+      "conclusion": 21,
+      "isFinal": false
+    },
+    {
+      "features": [
+        5
+      ],
+      "conclusion": 22,
+      "isFinal": false
+    },
+    {
+      "features": [
+        6,
+        7,
+        8
+      ],
+      "conclusion": 22,
+      "isFinal": false
+    },
+    {
+      "features": [
+        20,
+        9
+      ],
+      "conclusion": 23,
+      "isFinal": false
+    },
+    {
+      "features": [
+        20,
+        10
+      ],
+      "conclusion": 23,
+      "isFinal": false
+    },
+    {
+      "features": [
+        20,
+        22,
+        11,
+        12
+      ],
+      "conclusion": 0,
+      "isFinal": true
+    },
+    {
+      "features": [
+        20,
+        22,
+        11,
+        13
+      ],
+      "conclusion": 1,
+      "isFinal": true
+    },
+    {
+      "features": [
+        23,
+        14,
+        15,
+        12
+      ],
+      "conclusion": 2,
+      "isFinal": true
+    },
+    {
+      "features": [
+        23,
+        13
+      ],
+      "conclusion": 3,
+      "isFinal": true
+    },
+    {
+      "features": [
+        21,
+        16,
+        14,
+        15,
+        19
+      ],
+      "conclusion": 4,
+      "isFinal": true
+    },
+    {
+      "features": [
+        21,
+        16,
+        17,
+        19
+      ],
+      "conclusion": 6,
+      "isFinal": true
+    },
+    {
+      "features": [
+        21,
+        18
+      ],
+      "conclusion": 5,
+      "isFinal": true
+    }
+  ]
+}
